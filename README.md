@@ -1,4 +1,4 @@
-# Boilerplate App Next.js 
+# won client
 
 - TypeScript
 - Babel
@@ -11,10 +11,3 @@
 - Storybook
 - PWA
 - PLOP ( generator )
-
-
-## for creating a new project using this boilerplate is easy..
-
-yarn create next-app -e https://github.com/cesar1983/nextjs-boilerplate
-
-
