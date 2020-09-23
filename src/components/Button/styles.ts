@@ -45,6 +45,7 @@ export const Wrapper = styled.button<WrapperProps>`
     background: linear-gradient(190deg, #ff5f5f 0%, #f062c0 50%);
     color: ${theme.colors.white};
     border: 0;
+    cursos: pointer;
     border-radius: ${theme.border.radius};
     padding: ${theme.spacings.xxsmall};
 
