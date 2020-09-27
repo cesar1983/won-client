@@ -5,7 +5,7 @@ export type ButtonProps = {
   size?: 'small' | 'medium' | 'large'
   fullWidth?: boolean
   icon?: React.ReactNode // ou JSX.Element
-  onCLick?: () => (event: React.MouseEvent<HTMLButtonElement>) => void
+  onClick?: () => (event: React.MouseEvent<HTMLButtonElement>) => void
 }
 
 const Button = ({
