@@ -35,6 +35,7 @@ const wrapperModifiers = {
 
 export const Wrapper = styled.button<WrapperProps>`
   ${({ theme, size, fullWidth, hasIcon }) => css`
+    cursor: pointer;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -42,13 +43,14 @@ export const Wrapper = styled.button<WrapperProps>`
     color: ${theme.colors.white};
     font-family: ${theme.font.family};
     border: 0;
-    cursor: pointer;
     border-radius: ${theme.border.radius};
     padding: ${theme.spacings.xxsmall};
     text-decoration: none;
+
     &:hover {
       background: linear-gradient(180deg, #e35565 0%, #d958a6 50%);
     }
+
     ${!!size && wrapperModifiers[size](theme)};
     ${!!fullWidth && wrapperModifiers.fullWidth()};
     ${!!hasIcon && wrapperModifiers.withIcon(theme)};

@@ -24,5 +24,7 @@ describe('<Footer />', () => {
     expect(
       screen.getByRole('heading', { name: /location/i })
     ).toBeInTheDocument()
+
+    expect(container.firstChild).toMatchSnapshot()
   })
 })
