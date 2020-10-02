@@ -7,10 +7,13 @@ export default {
   args: {
     img:
       'https://venturebeat.com/wp-content/uploads/2020/01/doom-eternal-4.jpg',
-    title: 'Doom',
-    subtitle: '<i>Eternal Yehhhh</i>',
+    title: 'Doom Final',
+    subtitle: '<i>Eternal <strong>Yehhhh</strong> Doommmm</i>',
     buttonLabel: 'Buy now',
     buttonLink: '/games/doom'
+  },
+  parameters: {
+    layout: 'fullscreen'
   }
 } as Meta
 
