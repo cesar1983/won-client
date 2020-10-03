@@ -3,8 +3,8 @@ import {
   AddShoppingCart,
   Favorite
 } from '@styled-icons/material-outlined'
+import Ribbon, { RibbonColors, RibbonSizes } from 'components/Ribbon'
 import Button from 'components/Button'
-import Ribbon from 'components/Ribbon'
 import * as S from './styles'
 
 export type GameCardProps = {
