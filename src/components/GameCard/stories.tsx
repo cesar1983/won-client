@@ -10,6 +10,9 @@ export default {
     developer: 'Cesar Games',
     price: 'R$250,0',
     promotionalPrice: 'R$ 215,00'
+  },
+  argTypes: {
+    onFav: { action: 'clicked' }
   }
 } as Meta
 
