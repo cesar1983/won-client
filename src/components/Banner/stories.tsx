@@ -22,3 +22,15 @@ export const Default: Story<BannerProps> = (args) => (
     <Banner {...args} />
   </div>
 )
+
+export const WithRibbon: Story<BannerProps> = (args) => (
+  <div style={{ maxWidth: '84rem', margin: '0 auto' }}>
+    <Banner {...args} />
+  </div>
+)
+
+const WithRibbon.args = {
+  ribbon: 'On Sale',
+  ribbonSize: 'large',
+  RibbonColor: 'primary'
+}
