@@ -3,14 +3,14 @@ import GameCard, { GameCardProps } from 'components/GameCard'
 import Slider, { SliderSettings } from 'components/Slider'
 import * as S from './styles'
 
-type GameCardSliderProps = {
+export type GameCardSliderProps = {
   items: GameCardProps[]
   color?: 'white' | 'black'
 }
 
 const settings: SliderSettings = {
-  nextArrow: <ArrowForwardIos />,
-  prevArrow: <ArrowBackIos />,
+  nextArrow: <ArrowForwardIos aria-label="next games" />,
+  prevArrow: <ArrowBackIos aria-label="previous games" />,
   slidesToShow: 4,
   infinite: false,
   lazyLoad: 'ondemand',
