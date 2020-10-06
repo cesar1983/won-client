@@ -111,12 +111,12 @@ exports[`<Highlight /> should render headings and button 1`] = `
     <h2
       class="c3"
     >
-      Heading 1
+      Read Dead is back
     </h2>
     <h3
       class="c4"
     >
-      Heading 2
+      Come see John´s adventures
     </h3>
     <a
       class="c5"

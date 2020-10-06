@@ -46,7 +46,7 @@ const settings: SliderSettings = {
   ]
 }
 
-const GameCardSlider = ({ items, color }: GameCardSliderProps) => (
+const GameCardSlider = ({ items, color = 'white' }: GameCardSliderProps) => (
   <S.Wrapper color={color}>
     <Slider settings={settings}>
       {items.map((item, index) => (
